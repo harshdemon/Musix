@@ -41,15 +41,7 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
                 callback_data="GetTimer",
             )
         ],
-      [
-            InlineKeyboardButton(
-
-                text="➕ ᴀᴅᴅ ᴍᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ",
-
-                url=f"https://t.me/Shizuka_x_Music_bot?startgroup=true",
-
-            ),
-          ],
+    
         [
             InlineKeyboardButton(
                 text="▷",
@@ -68,15 +60,7 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
                 text="▢", callback_data=f"ADMIN Stop|{chat_id}"
             ),
         ],
-         [
-            InlineKeyboardButton(
-                text=" ᴏᴡɴᴇʀ 💞", url=f"https://t.me/AM_YTBOTT"
-            ),
-            InlineKeyboardButton(
-
-                text="ᴏᴜʀ ᴡᴏʀʟᴅ 💌", url=f"https://t.me/+CrphTp8tInNjZmRl"
-             ),
-          ],
+        
         [
          
             InlineKeyboardButton(
@@ -135,15 +119,7 @@ def telegram_markup_timer(_, chat_id, played, dur):
                 text="▢", callback_data=f"ADMIN Stop|{chat_id}"
             ),
         ],
-         [
-            InlineKeyboardButton(
-                text=" ᴏᴡɴᴇʀ 💞", url=f"https://t.me/AM_YTBOTT"
-            ),
-            InlineKeyboardButton(
-
-                 text="ᴏᴜʀ ᴡᴏʀʟᴅ 💌", url=f"https://t.me/+CrphTp8tInNjZmRl"
-             ),
-          ],
+        
         [
           
             InlineKeyboardButton(
@@ -205,15 +181,7 @@ def telegram_markup(_, chat_id):
             ),
         ],
        
-         [
-            InlineKeyboardButton(
-                text=" ᴏᴡɴᴇʀ 💞", url=f"https://t.me/AM_YTBOTT"
-            ),
-            InlineKeyboardButton(
-
-                text="ᴏᴜʀ ᴡᴏʀʟᴅ 💌", url=f"https://t.me/+CrphTp8tInNjZmRl"
-             ),
-          ],
+         
        [
          
             InlineKeyboardButton(
@@ -372,15 +340,7 @@ def queue_markup(_, videoid, chat_id):
             ),
         ],
        
-         [
-            InlineKeyboardButton(
-                text=" ᴏᴡɴᴇʀ 💞", url=f"https://t.me/AM_YTBOTT"
-            ),
-            InlineKeyboardButton(
-
-                text="ᴏᴜʀ ᴡᴏʀʟᴅ 💌", url=f"https://t.me/+CrphTp8tInNjZmRl"
-             ),
-          ],
+        
         [
           
             InlineKeyboardButton(
