@@ -13,10 +13,10 @@ API_HASH = getenv("API_HASH","b463bedd791aa733ae2297e6520302fe")
 BOT_TOKEN = getenv("BOT_TOKEN")
 
 MONGO_DB_URI = getenv("MONGO_DB_URI", "")
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID","-1001840241140"))
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "ꜱʜɪᴢᴜᴋᴀ 乂 ᴍᴜꜱɪᴄ")
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID","-1001954363095"))
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "aela x music")
 
-OWNER_ID = list(map(int, getenv("OWNER_ID", "6204761408").split()))
+OWNER_ID = list(map(int, getenv("OWNER_ID", "6074152428").split()))
 
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
@@ -76,7 +76,7 @@ clean = {}
 autoclean = []
 
 
-START_IMG_URL = getenv("START_IMG_URL", "https://graph.org/file/ea11748b5ecd674583a99.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
