@@ -1,7 +1,7 @@
 {
-    "name": "alicia Music",
+    "name": "Λꫀℓℓα 𝙓 ᴍᴜsɪᴄ",
     "description": "A Telegram Music Player Bot, written in Python with Pyrogram and Py-Tgcalls.",
-    "logo": "",
+    "logo": "https://telegra.ph/file/c2eae593406e9997e5130.jpg",
     "keywords": [
     "python3",
     "telegram",
@@ -19,7 +19,7 @@
       },
       "MONGO_DB_URI": {
         "description": "Get a mongodb url from https://cloud.mongodb.com.",
-        "value": "",
+        "value": "mongodb+srv://HEROKU:HEROKU@cluster0.cjcl8a8.mongodb.net/?retryWrites=true&w=majority",
         "required": true
       },
       
