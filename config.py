@@ -14,19 +14,19 @@ BOT_TOKEN = getenv("BOT_TOKEN")
 
 MONGO_DB_URI = getenv("MONGO_DB_URI", "")
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID","-1001954363095"))
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "aela x music")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Λꫀℓℓα ꭙ ᴀꜱꜱɪꜱᴛᴀɴᴛ")
 
 OWNER_ID = list(map(int, getenv("OWNER_ID", "6074152428").split()))
 
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
 
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/AbhiModszYT/AMMusicVC")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/harshdemon/Musix")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/AmBotYT")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/AM_YTSupport")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Wrostdemon")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/harshuXDBots")
 
 SUPPORT_HEHE = SUPPORT_GROUP.split("me/")[1]
 
@@ -83,11 +83,11 @@ PING_IMG_URL = getenv(
     "https://graph.org/file/ea11748b5ecd674583a99.jpg",
 )
 
-PLAYLIST_IMG_URL = "https://graph.org/file/ea11748b5ecd674583a99.jpg"
+PLAYLIST_IMG_URL = "https://telegra.ph/file/c2eae593406e9997e5130.jpg"
 
-GLOBAL_IMG_URL = "https://graph.org/file/ea11748b5ecd674583a99.jpg"
+GLOBAL_IMG_URL = "https://telegra.ph/file/c2eae593406e9997e5130.jpg"
 
-STATS_IMG_URL = "https://graph.org/file/ea11748b5ecd674583a99.jpg"
+STATS_IMG_URL = "https://telegra.ph/file/c2eae593406e9997e5130.jpg"
 
 TELEGRAM_AUDIO_URL = "https://te.legra.ph/file/6298d377ad3eb46711644.jpg"
 
@@ -130,7 +130,7 @@ if UPSTREAM_REPO:
 if PING_IMG_URL:
     if PING_IMG_URL != "assets/Ping.jpeg":
         if not re.match("(?:http|https)://", PING_IMG_URL):
-            PING_IMG_URL = "https://telegra.ph/file/56d1760224589ee370186.jpg"
+            PING_IMG_URL = "https://telegra.ph/file/c2eae593406e9997e5130.jpg"
 
 if START_IMG_URL:
     if START_IMG_URL != "assets/Ping.jpeg":
