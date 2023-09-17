@@ -14,7 +14,7 @@ BOT_TOKEN = getenv("BOT_TOKEN")
 
 MONGO_DB_URI = getenv("MONGO_DB_URI", "")
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID","-1001954363095"))
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Λꫀℓℓα ꭙ ᴀꜱꜱɪꜱᴛᴀɴᴛ")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Λꫀℓℓα 𝙓 ᴍᴜsɪᴄ")
 
 OWNER_ID = list(map(int, getenv("OWNER_ID", "6074152428").split()))
 
@@ -26,7 +26,7 @@ UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Wrostdemon")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/harshuXDBots")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/HarshuXDBots")
 
 SUPPORT_HEHE = SUPPORT_GROUP.split("me/")[1]
 
@@ -76,7 +76,7 @@ clean = {}
 autoclean = []
 
 
-START_IMG_URL = getenv("START_IMG_URL", "")
+START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/c2eae593406e9997e5130.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
